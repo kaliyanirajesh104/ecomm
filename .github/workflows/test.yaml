@@ -18,6 +18,5 @@ jobs:
        run: vercel pull --yes --environment=preview --token=${{ secrets.VERCEL_TOKEN }}
 
      - name: Deploy to Vercel
-       run: curl -X POST https://api.vercel.com/v1/integrations/deploy/prj_Ov4DG9HjVlPPtE3wFzqA3wwYhm73/xZ4PsM2qHW
-
+       run: curl -X POST https://api.vercel.com/v1/integrations/deploy/prj_Ov4DG9HjVlPPtE3wFzqA3wwYhm73/BV3wvlLMv4
 
