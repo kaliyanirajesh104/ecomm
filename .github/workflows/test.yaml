@@ -3,7 +3,7 @@ name: Deploying to vercel
 on:
   push:
     branches:
-      - main
+      - dev
 
 
 jobs:
